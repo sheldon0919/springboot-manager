@@ -87,7 +87,7 @@
    	1. 直接运行CmsApplication.java
 	2. 项目根目录下执行mvn -X clean package -Dmaven.test.skip=true编译打包，然后执行java -jar manager.jar
 - 接口文档访问 http://localhost:8080/doc.html
-- 登录地址 http://localhost:8080/index/login 用户名密码:admin/123456
+- 登录地址 http://localhost:8080/index/login 用户名密码:admin/admin
 - 代码生成使用  
     1. 逻辑删除字段，请统一用deleted字段: 1未删 0已删; 主键请统一格式: `id` varchar(50) 类型; 列名请勿使用数据库关键字
     2. application.yml中配置： 使用代码生成模块时 指定要生成的表存在于哪种数据库。project.database=mysql  
